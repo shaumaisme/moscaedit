@@ -7,7 +7,7 @@ var backjack = {
   db: 12,
   port: 6379,
   return_buffers: true,
-  host: "ws://still-shore-29805.herokuapp.com"
+  host: "ws://sactybroker.herokuapp.com"
 };
  
 var moscaSettings = {

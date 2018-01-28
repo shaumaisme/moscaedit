@@ -6,7 +6,7 @@ var SECURE_CERT = __dirname + '/../../test/secure/tls-cert.pem';
 var settings = {
   logger: {
     name: "secureExample",
-    level: 40,
+    level: 0,
   },
   secure : { 
     port: 8443,

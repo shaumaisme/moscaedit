@@ -1,5 +1,5 @@
 var mqtt    = require('mqtt');
-var client  = mqtt.connect('mqtt://sactybroker.herokuapp.com1883');
+var client  = mqtt.connect('mqtts://sactybroker.herokuapp.com');
  
 client.on('connect', function () {
   client.subscribe('mktech/mesin');
